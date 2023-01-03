@@ -74,11 +74,11 @@ yesnopy accepts a wide range of inputs, all of them are listed here:
 
 WILL RETURN TRUE:
 
-y, yes, 1, true, yep, allright, alright, verywell, ofcourse, byallmeans, sure, certainly, absolutely, indeed, affirmative, agreed, roger, aye, ayeaye, yeah, yah, yep, yup, uh-huh, okay, ok, okey-dokey, okey-doke, achcha, righto, righty-ho, surely
+y, yes, 1, true, yep, all right, alright, very well, of course, by all means, sure, certainly, absolutely, indeed, affirmative, agreed, roger, aye, aye aye, yeah, yah, yep, yup, uh-huh, okay, ok, okey-dokey, okey-doke, achcha, righto, righty-ho, surely
 
 WILL RETURN FALSE:
 
-n, no, 0, nope, false, not, noindeed, absolutelynot, mostcertainlynot, ofcoursenot, undernocircumstances, bynomeans, notatall, negative, never, notreally, nothanks, nae, nope, nah, notonyourlife, noway, nofear, notonyournelly, nosiree, naw
+n, no, 0, nope, false, not, no indeed, absolutely not, most certainly not, of course not, under no circumstances, by no means, not at all, negative, never, not really, no thanks, nae, nope, nah, not on your life, no way, no fear, not on your nelly, no siree, naw
 
 ## Contributing
 
