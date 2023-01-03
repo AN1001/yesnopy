@@ -28,9 +28,9 @@ forceVaildInput [BOOL]: Keep asking until user inputs valid input?
 defaultValue [ANY]: If all else fails what should the function return? (can be string, number etc...)
 
 ```python
-userDecision = yn.returnDecision(inputMessage="Do you want cake? ", True)
+userWantsCake = yn.returnDecision(inputMessage="Do you want cake? ", True)
 
-if userDecision:
+if userWantsCake:
   print("Returned True")
 else:
   print("Returned False")
@@ -51,13 +51,13 @@ Returned False
 
 Example of using default:
 ```python
-userDecision = yn.returnDecision("Do you want cake? ", False, "ERROR")
+userWantsCake = yn.returnDecision("Do you want cake? ", False, "ERROR")
 
-if userDecision:
+if userWantsCake:
   print("Returned True")
-elif not userDecision:
+elif not userWantsCake:
   print("Returned False")
-elif userDecision=="ERROR":
+elif userWantsCake=="ERROR":
   print("Something went wrong...") 
 
 ```
