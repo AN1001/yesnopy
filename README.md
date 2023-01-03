@@ -7,11 +7,14 @@ Simpilfies vailidating user input and return True/False based on a list of expec
 ```bash
 pip install yesnopy
 ```
+```python
+import yesnopy as yn
+```
 
 ## Usage
 
 ```python
-from yesnopy import yesnopy as yn
+import yesnopy as yn
 
 if yn.returnDecision(inputMessage="", forceValidInput=False, defaultValue=False):
   doSomething()
